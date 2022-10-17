@@ -1,0 +1,30 @@
+plexus-resources (1.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Depend on libplexus-component-annotations-java instead of
+    libplexus-containers-java
+  * Suggest the optional dependencies instead of recommending them
+  * Standards-Version updated to 4.1.0
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Wed, 30 Aug 2017 11:58:46 +0200
+
+plexus-resources (1.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+    - Refreshed the patch
+  * Generate components.xml with plexus-component-metadata
+  * Relocated the version 1.x to the generic 'debian' version
+  * Build with the DH sequencer instead of CDBS
+  * Track and download the new releases from GitHub
+  * Moved the package to Git
+  * Standards-Version updated to 4.0.0
+  * Switch to debhelper level 10
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 27 Jul 2017 13:03:34 +0200
+
+plexus-resources (1.0~alpha7-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Eugene Zhukov <jevgeni.zh@gmail.com>  Thu, 02 May 2013 10:19:23 +0000

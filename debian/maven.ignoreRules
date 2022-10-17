@@ -1,0 +1,2 @@
+org.apache.maven.plugins maven-scm-publish-plugin
+org.mockito mockito-core

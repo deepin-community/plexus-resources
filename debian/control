@@ -1,0 +1,24 @@
+Source: plexus-resources
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Eugene Zhukov <jevgeni.zh@gmail.com>
+Build-Depends:
+ debhelper (>= 10),
+ default-jdk,
+ libplexus-component-metadata-java,
+ libplexus-component-annotations-java,
+ libplexus-utils-java,
+ maven-debian-helper (>= 1.6.1)
+Standards-Version: 4.1.0
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/plexus-resources.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/plexus-resources.git
+Homepage: https://github.com/codehaus-plexus/plexus-resources
+
+Package: libplexus-resources-java
+Architecture: all
+Depends: ${maven:Depends}, ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: Plexus Resource Component
+ A component to transparently retrieve resources from the filesystem, classpath
+ or internet.
